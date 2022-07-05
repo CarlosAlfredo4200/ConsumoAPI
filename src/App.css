@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+.infoApi{
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -24,8 +25,50 @@
   color: white;
 }
 
+.individual{
+  width: 50%;
+  background-color: #282c34;
+  color: white;
+  border: 1px solid #282c34;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.span-individual{
+  color: rgb(139, 139, 139);
+}
+
+.dato-span{
+  color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  width: auto;
+  
+  height: 100px;
+  color: white;
+  padding: 10px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.btn-nav{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding:0 40px ;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px;
+  line-height: 50px;
+  font-weight: 900;
 }
 
 @keyframes App-logo-spin {
