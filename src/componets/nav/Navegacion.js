@@ -10,7 +10,7 @@ const Navegacion = () => {
        <Link to="/tabla" className='btn-nav'>Tabla</Link>
        <Link to="/individual" className='btn-nav'>Individual</Link>
         </nav>
-        <p>mas de algo</p>
+         
          
          
     </div>
