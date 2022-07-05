@@ -13,7 +13,7 @@ const ConsumoApi = () => {
     setEquipo(users);
   };
   return (
-    <div>
+    <div className="simple">
       <h1>Cunsumiendo API Version I Simple</h1>
       <ol className="infoApi">
         {equipo.map((item) => (
