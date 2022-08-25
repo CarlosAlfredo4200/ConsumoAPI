@@ -5,7 +5,7 @@ const ConsumoApi = () => {
   const { equipo } = useConsIndividual();
   
   return (
-    <div>
+    <div className="simple">
       <h1>Cunsumiendo API Version I Simple</h1>
       <ol className="infoApi">
         {equipo.map((item) => (
