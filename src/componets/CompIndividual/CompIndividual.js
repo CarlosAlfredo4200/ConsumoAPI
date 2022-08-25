@@ -1,19 +1,11 @@
-import React from 'react'
+ 
 import IndividualComp from './IndividualComp';
+import { useConsIndividual } from './useConsIndividual';
+
 
 const CompIndividual = () => {
-    const [equipo, setEquipo] = React.useState([]);
+    const {equipo} = useConsIndividual();
 
-    React.useEffect(() => {
-      obtenerEquipo();
-    }, []);
-  
-    const obtenerEquipo = async () => {
-      const data = await fetch("https://jsonplaceholder.typicode.com/users");
-      const users = await data.json();
-      setEquipo(users);
-      
-    };
   return (
     <div>
     <h1>Cunsumiendo API en componente individual</h1>
